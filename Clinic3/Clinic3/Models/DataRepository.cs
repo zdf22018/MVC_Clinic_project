@@ -31,7 +31,11 @@ namespace Clinic3.Models
         // Add Availability
         public void AddAvailability()
         {
-
+            // this function need validation to check the one being added is not overlaping with existing ones.
+            //code???
+            availability a = new availability();
+            context.availabilities.Add(a);
+            context.SaveChanges();
         }
 
 

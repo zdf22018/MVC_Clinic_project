@@ -31,11 +31,15 @@ namespace Clinic3.Controllers
             var doctor = r.getDoctorById(id);
             return View(doctor);
         }
-
-        public ActionResult AddAvailability()
+        [HttpGet]
+        public ActionResult AddAvailability_get()
         {
             return View();
         }
-       
+        [HttpPost]
+        public ActionResult AddAvailability_post()
+        {
+            return View();
+        }
     }
 }

@@ -20,6 +20,7 @@ namespace Clinic3
         public int DoctorId { get; set; }
 
         [Column(TypeName = "date")]
+        [DataType(DataType.Date)]
         public DateTime Date { get; set; }
 
         public DateTime AvailableFrom { get; set; }
