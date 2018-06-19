@@ -13,5 +13,27 @@ namespace Clinic3.Controllers
         {
             return View();
         }
+
+        public ActionResult MyProfile()
+        {
+            return PartialView();
+        }
+
+        public ActionResult BookAppointment()
+        {
+            return View();
+        }
+        public ActionResult ManageAppointments()
+        {
+            return View();
+        }
+        public ActionResult Logout()
+        {
+            return View();
+        }
+        public ActionResult partialTestView()
+        {
+            return PartialView();
+        }
     }
 }

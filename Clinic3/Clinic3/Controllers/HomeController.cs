@@ -8,8 +8,11 @@ namespace Clinic3.Controllers
 {
     public class HomeController : Controller
     {
+
         public ActionResult Index()
         {
+            System.Web.HttpContext.Current.Session["loggedIn"] = false;
+
             return View();
         }
 

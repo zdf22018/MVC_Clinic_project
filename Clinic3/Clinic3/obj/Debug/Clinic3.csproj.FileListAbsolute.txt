@@ -233,7 +233,6 @@ C:\Users\D\Desktop\MVC_Clinic_project\Clinic3\Clinic3\bin\Microsoft.AI.Dependenc
 C:\Users\D\Desktop\MVC_Clinic_project\Clinic3\Clinic3\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\D\Desktop\MVC_Clinic_project\Clinic3\Clinic3\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\D\Desktop\MVC_Clinic_project\Clinic3\Clinic3\bin\Microsoft.AI.Web.xml
-C:\Users\D\Desktop\MVC_Clinic_project\Clinic3\Clinic3\obj\Debug\Clinic3.csprojResolveAssemblyReference.cache
 C:\Users\D\Desktop\MVC_Clinic_project\Clinic3\Clinic3\obj\Debug\Clinic3.csproj.CoreCompileInputs.cache
 C:\Users\D\Desktop\MVC_Clinic_project\Clinic3\Clinic3\obj\Debug\Clinic3.dll
 C:\Users\D\Desktop\MVC_Clinic_project\Clinic3\Clinic3\obj\Debug\Clinic3.pdb
