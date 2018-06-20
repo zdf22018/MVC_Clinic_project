@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Clinic3.Models;
 
 namespace Clinic3.Controllers
 {
@@ -11,6 +12,7 @@ namespace Clinic3.Controllers
 
         public ActionResult Index()
         {
+            // test line
             System.Web.HttpContext.Current.Session["loggedIn"] = false;
 
             return View();
@@ -42,10 +44,14 @@ namespace Clinic3.Controllers
             return View();
         }
         public ActionResult Patient()
-        {
-           
-
+        {         
             return View();
+        }
+
+        public patient GetPatientById(int id)
+        {
+            DataRepository repo = new DataRepository();
+            return repo.GetPatientById(id);
         }
     }
 }

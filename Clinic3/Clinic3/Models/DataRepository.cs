@@ -14,6 +14,11 @@ namespace Clinic3.Models
         {
             return (from p in context.patients select p).ToList();
         }
+        //get patient by id
+        public patient GetPatientById(int id)
+        {
+            return (from p in context.patients where p.Id == id select p).SingleOrDefault();
+        }
 
         // get a single doctor
         public doctor getDoctorById (int Id)
